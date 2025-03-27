@@ -1,0 +1,13 @@
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* width: 300px; */
+  margin: auto;
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
