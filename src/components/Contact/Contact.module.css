@@ -14,32 +14,25 @@
   gap: 5px;
 }
 
-.contact .info {
+.info {
   display: flex;
   align-items: center;
-  gap: 5px;
-}
-
-.contact p {
-  margin: 0;
+  gap: 8px;
+  font-size: 16px;
+  color: #333;
 }
 
 .deleteBtn {
-  background-color: #e63946;
+  background-color: #ff4d4d;
   color: white;
   border: none;
-  border-radius: 8px;
-  padding: 6px 12px;
-  margin-top: 8px;
-  cursor: pointer;
+  padding: 8px 12px;
   font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .deleteBtn:hover {
-  background-color: #d32f2f;
-}
-
-.deleteBtn:focus {
-  outline: none;
+  background-color: #cc0000;
 }
